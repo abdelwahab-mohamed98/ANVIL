@@ -111,6 +111,9 @@ body {
 /*Start Header Section */
 .header {
   background-image: url(../images/header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
   position: relative;
 }
