@@ -77,6 +77,53 @@ body {
   }
   }
 /* End Global Rules */
+
+/* Start Signup Modal*/
+  .modal-btn {
+    top: 0%;
+    right: 0%;
+    transform: translate(50%, -50%);
+    color: #141414;
+    padding: 1rem;
+    background-color: #E0E0E0;
+    border-radius: 50%;
+  }
+  .modal-dialog{
+    max-width: 75%;
+    margin: 10% auto;
+  }
+  .modal-header{
+    background-color: rgba(20, 20, 20, 0.50);
+    background-image: url(../images/modal.jpg);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center 45%;
+    height: 300px;
+  }
+  .terms-text{
+    text-decoration: underline;
+  }
+  form button{
+    background-color: #002D5B !important;
+    color: #fff;
+    border-radius: 8px;
+    border-color: #002D5B !important;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  form label {
+    color: #586870;
+  }
+  .social-media-modal a{
+    width: 150px;
+  }
+  .modal-footer-image {
+    max-width: 250px;
+  }
+/* End Signup Modal*/
+
 /* Start GetStarted Section */
 .get{
   background-color: rgba(245, 245, 245, 1);
@@ -213,13 +260,15 @@ body {
   text-transform: capitalize;
   padding-bottom: 2rem;
 }
-.courses ul {
+.courses ul,
+.modal ul {
   list-style: none;
   display: flex;
   padding-left: 0;
   padding-bottom: 4.5rem;
 }
-.courses ul li {
+.courses ul li,
+.modal ul li {
   margin-right: 6.563rem;
   font-size: 1.5rem;
   font-weight: 400;
