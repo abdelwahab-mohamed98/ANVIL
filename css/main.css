@@ -379,16 +379,15 @@ body {
   cursor: pointer;
 }
 @media screen and (max-width: 772px) {
-  .courses ul {
+  .courses ul,
+  .modal ul{
     flex-direction: column;
     padding-bottom: 2rem;
   }
-  .courses ul li {
+  .courses ul li,
+  .modal ul li {
     margin-right: 0;
     margin-bottom: 1rem;
-  }
-  .courses ul li:last-child {
-    margin-bottom: 0;
   }
   .card {
     margin-bottom: 1rem;
