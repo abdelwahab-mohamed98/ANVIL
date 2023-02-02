@@ -552,7 +552,7 @@ body {
 .footer-social {
   display: flex;
 }
-.footer-social span {
+.footer-social a {
   display: flex;
   justify-content: center;
   align-items: center;
