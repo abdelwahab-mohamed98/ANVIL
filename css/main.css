@@ -561,6 +561,7 @@ body {
   border-radius: 50%;
   background-color: #F5FAFF;
   margin-right: 15px;
+  text-decoration: none;
 }
 .footer-social i{
   color: #002750;
