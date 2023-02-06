@@ -70,6 +70,10 @@ body {
   cursor: pointer;
   font-size: 16px;
   width: max-content;
+  text-decoration: none;
+}
+.sec-btn:hover{
+  color: #F5FAFF;
 }
 @media screen and (max-width: 992px) {
   .text1{
@@ -258,18 +262,14 @@ body {
   font-size: 43px;
   line-height: 142.86%;
   text-transform: capitalize;
-  padding-bottom: 2rem;
 }
-.courses ul,
-.modal ul {
+.courses ul {
   list-style: none;
   display: flex;
   padding-left: 0;
-  padding-bottom: 4.5rem;
 }
-.courses ul li,
-.modal ul li {
-  margin-right: 6.563rem;
+.courses ul li {
+  margin-right: 2rem;
   font-size: 1.5rem;
   font-weight: 400;
   color: #00060b;
@@ -304,7 +304,6 @@ body {
 .image img {
   width: 100%;
   height: 100%;
-  min-height: 193px;
   border-radius: 0.5rem;
 }
 .card-views {
@@ -336,6 +335,9 @@ body {
   text-transform: capitalize;
   cursor: pointer;
 }
+.card-body{
+  min-height: 175px;
+}
 .card-text {
   font-weight: 400;
   font-size: 0.75rem;
@@ -344,26 +346,17 @@ body {
 }
 .card-footer {
   border: none;
-  margin-bottom: 1rem;
+  min-height: 75px;
 }
 .card-price {
   font-weight: 500;
   font-size: 1rem;
   line-height: 142.86%;
   text-transform: capitalize;
-  padding: 0.5rem 0 0 0;
 }
-.old-price {
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 142.86%;
-  color: #858585;
-  text-decoration: line-through;
-  padding-right: 0.5rem;
-}
-.unavailable {
-  color: #95231d;
-  background-color: #f5cecc;
+.demand {
+  color: #3226C0;
+  background-color: #CFCCF5;
   border: none;
   border-radius: 0.5rem;
   font-weight: 400;
@@ -379,13 +372,10 @@ body {
   cursor: pointer;
 }
 @media screen and (max-width: 772px) {
-  .courses ul,
-  .modal ul{
+  .courses ul {
     flex-direction: column;
-    padding-bottom: 2rem;
   }
-  .courses ul li,
-  .modal ul li{
+  .courses ul li {
     margin-right: 0;
     margin-bottom: 1rem;
   }
@@ -434,8 +424,8 @@ body {
 }
 .why .arrow {
   position: absolute;
-  top: 45%;
-  left: 40%;
+  top: 43%;
+  left: 38%;
   transform: translate(-50%, -50%);
   z-index: 1;
 }
@@ -488,37 +478,18 @@ body {
   color: #007BF8;
 }
 .ach-icon {
-  height: 65px;
-  width: 65px;
+  height: 80px;
+  width: 80px;
   border-radius: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 22px;
-}
-.ach-icon1 {
-  background-color: #E9F8F3;
-}
-.ach-icon1 i {
-  color: #1A906B;
-}
-.ach-icon2 {
   background-color: #FFFAF5;
+
 }
-.ach-icon2 i {
+.ach-icon i {
   color: #7C5833;
-}
-.ach-icon3 {
-  background-color: #FFEEF0;
-}
-.ach-icon3 i {
-  color: #ED4459;
-}
-.ach-icon4 {
-  background-color: #F0F7FF;
-}
-.ach-icon4 i {
-  color: #0075FD;
 }
 @media screen and (max-width: 992px) {
   .ach{
@@ -544,10 +515,11 @@ body {
 }
 .get-touch {
   font-weight: 500;
-  font-size: 22px;
+  font-size: 24px;
   line-height: 142.86%;
   text-transform: capitalize;
   color: #2E95FF;
+  cursor: pointer;
 }
 .footer-social {
   display: flex;
@@ -567,5 +539,11 @@ body {
   color: #002750;
   font-size: 16px;
   padding: 10px;
+}
+.footer-social a:hover{
+  background-color: #002750;
+}
+.footer-social i:hover{
+  color: #F5FAFF;
 }
 /* End footer */
