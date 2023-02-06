@@ -64,6 +64,20 @@
                     <label for="email" class="form-label">Email*</label>
                     <input type="email" class="form-control" id="email" />
                   </div>
+
+                  <select class="form-select mb-3" aria-label="CourseSelect">
+                    <optgroup selected label="All Courses">
+                      <option value="rcm">RCM Course</option>
+                    </optgroup>
+                    <optgroup label="Medical Coding Courses">
+                      <option value="aus">Australian Medical Coding</option>
+                      <option value="conversion">
+                        Medical Coding Conversion
+                      </option>
+                      <option value="usa">American Medical Coding</option>
+                    </optgroup>
+                  </select>
+
                   <div class="mb-3 form-check">
                     <input
                       type="checkbox"
@@ -298,31 +312,31 @@
     <section class="courses py-5">
       <div class="container-fluid px-5">
         <h2 class="title mb-4">anvil’s training courses</h2>
-          <ul class="mb-4">
-            <li
-              class="active"
-              data-bs-toggle="collapse"
-              href="#allCoursescollapse"
-              role="button"
-              data-bs-toggle="collapse"
-              data-bs-target=".multi-collapse"
-              aria-expanded="false"
-              aria-controls="allCoursescollapse codingCoursescollapse"
-            >
-              all courses
-            </li>
-            <li
-              data-bs-toggle="collapse"
-              href="#codingCoursescollapse"
-              role="button"
-              data-bs-toggle="collapse"
-              data-bs-target=".multi-collapse"
-              aria-expanded="false"
-              aria-controls="codingCoursescollapse allCoursescollapse"
-            >
-              medical coding courses
-            </li>
-          </ul>
+        <ul class="mb-4">
+          <li
+            class="active"
+            data-bs-toggle="collapse"
+            href="#allCoursescollapse"
+            role="button"
+            data-bs-toggle="collapse"
+            data-bs-target=".multi-collapse"
+            aria-expanded="false"
+            aria-controls="allCoursescollapse codingCoursescollapse"
+          >
+            all courses
+          </li>
+          <li
+            data-bs-toggle="collapse"
+            href="#codingCoursescollapse"
+            role="button"
+            data-bs-toggle="collapse"
+            data-bs-target=".multi-collapse"
+            aria-expanded="false"
+            aria-controls="codingCoursescollapse allCoursescollapse"
+          >
+            medical coding courses
+          </li>
+        </ul>
         <div class="row g-3">
           <!-- All Courses -->
           <div
