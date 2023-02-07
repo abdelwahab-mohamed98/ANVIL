@@ -492,6 +492,12 @@ body {
 .ach-icon i {
   color: #0075FD;;
 }
+.achievements .sec-btn {
+  font-size: 24px;
+  background-color: #F0F7FF;
+  color: #0075FD;
+  font-weight: 700;
+}
 @media screen and (max-width: 992px) {
   .ach{
     display: flex;
