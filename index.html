@@ -25,6 +25,20 @@
     />
     <!-- fontawseme icons -->
     <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-5TZF2NZ");
+    </script>
+    <!-- End Google Tag Manager -->
   </head>
   <body>
     <!-- Register Modal Start -->
@@ -66,7 +80,7 @@
                   </div>
 
                   <select class="form-select mb-3" aria-label="CourseSelect">
-                    <optgroup selected label="All Courses">
+                      <option disabled selected>Choose Your Course</option>
                       <option value="rcm">RCM Course</option>
                     </optgroup>
                     <optgroup label="Medical Coding Courses">
@@ -75,7 +89,7 @@
                         Medical Coding Conversion
                       </option>
                       <option value="usa">American Medical Coding</option>
-                    </optgroup>
+                    
                   </select>
 
                   <div class="mb-3 form-check">
@@ -172,33 +186,33 @@
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" target="_blank" href="https://anvilcompany.org/clinical-coding-services.html">
                     <i class="fa-solid fa-phone pe-1"></i> clinical coding
                     system</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" target="_blank" href="https://anvilcompany.org/clinical-mapping.html">
                     <i class="fa-solid fa-map-location-dot pe-1"></i> mapping
                     services</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" target="_blank" href="https://anvilcompany.org/rcm-services.html">
                     <i class="fa-brands fa-servicestack pe-1"></i> RCM
                     services</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" target="_blank" href="https://anvilcompany.org/anvil-consultancy.html">
                     <i class="fa-solid fa-receipt pe-1"></i> Anvil
                     consultancy</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" target="_blank" href="https://anvilcompany.org/clinical-documentation-improvement.html">
                     <i class="fa-solid fa-file-medical pe-1"></i> clinical
-                    doucumentation improvment</a
+                    doucumentation improvment (CDI)</a
                   >
                 </li>
               </ul>
@@ -216,20 +230,20 @@
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="#courses">
                     <i class="fa-solid fa-person-chalkboard me-1"></i> RCM
                     courses</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="#courses">
                     <i class="fa-solid fa-question me-1"></i> medical coding</a
                   >
                 </li>
               </ul>
             </li>
             <li class="nav-item last-nav">
-              <a class="nav-link" href="#">About anvil</a>
+              <a class="nav-link" href="https://anvilcompany.org/index.html">About anvil</a>
             </li>
 
             <!-- For Responsive navbar -->
@@ -244,7 +258,7 @@
               >
             </li>
             <li class="nav-item m-0 d-xl-none">
-              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link" href="https://anvilcompany.org/contact.html">Contact Us</a>
             </li>
             <li class="nav-item d-xl-none">
               <a class="nav-link d-xl-none" href="#"
@@ -309,7 +323,7 @@
     <!-- Start Header -->
 
     <!-- Start Courses -->
-    <section class="courses py-5">
+    <section class="courses py-5" id="courses">
       <div class="container-fluid px-5">
         <h2 class="title mb-4">anvil’s training courses</h2>
         <ul class="mb-4">
@@ -731,5 +745,15 @@
 
     <!-- Bootstrap Js Script -->
     <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-5TZF2NZ"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
   </body>
 </html>
